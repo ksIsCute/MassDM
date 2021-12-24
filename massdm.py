@@ -42,6 +42,6 @@ async def on_connect():
       print(colors.OKBLUE + f"Message sent to: {i.name}")
     except Exception as err:
       print(f"Error sending DM to {i.name}: {err}")
-    print(colors.RESET + "Done sending messages!")
+  print(colors.RESET + "Done sending messages!")
 
 bot.run(token, bot=False)
